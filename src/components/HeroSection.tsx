@@ -38,17 +38,11 @@ export function HeroSection() {
       
   <div className="relative z-30 text-center text-white px-4 max-w-4xl mx-auto">
   <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-in slide-in-from-bottom duration-1000 drop-shadow-lg">
-          {t('hero.title')}
+          From the streets to your feet
         </h1>
   <p className="text-xl md:text-2xl mb-8 opacity-90 animate-in slide-in-from-bottom duration-1000 delay-200 drop-shadow">
-          {t('hero.subtitle')}
+          Simple. Clean. Stazzy.
         </p>
-        <Button
-          size="lg"
-          className="text-lg px-8 py-6 bg-white text-primary hover:bg-white/90 hover:scale-105 transition-all duration-300 shadow-glow animate-in slide-in-from-bottom duration-1000 delay-500"
-        >
-          {t('hero.cta')}
-        </Button>
       </div>
     </section>
   );
