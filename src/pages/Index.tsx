@@ -76,7 +76,7 @@ const Index = () => {
                       </div>
                       <h3 className="text-sm font-medium line-clamp-1">{product.name}</h3>
                       <div className="mt-auto flex items-center justify-between pt-2">
-                        <span className="text-sm font-semibold">${product.price}</span>
+                        <span className="text-sm font-semibold">{product.price} TND</span>
                         <button
                           onClick={() => handleAddToCart(product as Product)}
                           className="text-xs bg-primary text-primary-foreground px-3 py-1.5 rounded-md hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
