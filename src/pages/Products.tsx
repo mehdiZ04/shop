@@ -50,7 +50,7 @@ export default function Products() {
                           <img src={prod.image} alt={prod.name} className="h-full w-full object-cover transition-transform group-hover:scale-105" />
                         </div>
                         <h3 className="text-sm font-medium line-clamp-1 mb-1">{prod.name}</h3>
-                        <span className="text-sm font-semibold">${prod.price}</span>
+                        <span className="text-sm font-semibold">{prod.price} TND</span>
                       </button>
                     ))}
                   </div>
